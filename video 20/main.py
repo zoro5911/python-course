@@ -1,26 +1,33 @@
-def calculateGmean(a, b):
-  mean = (a*b)/(a+b)
-  print(mean)
+def calculateSum(a,b):
+    Sum = (a + b)
+    print(Sum)
 
 def isGreater(a, b):
-  if(a>b):
-    print("First number is greater")
-  else:
-    print("Second number is greater or equal")
+    if(a < b):
+        print("First number is greater than second")
+    elif(a == b):
+        print("Both numbers are equal")
+    else:
+        print("Second number is greater than first")
 
-def isLesser(a, b):
-  pass
-  
+def isLesser(a , b):
+    pass
 
 a = 5
 b = 8
 isGreater(a, b)
-calculateGmean(a, b)
-# gmean1 = (a*b)/(a+b)
-# print(gmean1)
+calculateSum(a, b)
+
 c = 88
 d = 74
 isGreater(c, d)
-calculateGmean(c, d)
-# gmean2 = (c*d)/(c+d)
-# print(gmean2)
+calculateSum(c, d)
+
+e = 10
+f = 10
+isGreater(e, f)
+calculateSum(e, f)
+
+def name(fname, lname):
+    print("Hello,", fname, lname)
+name("Aditya", "Sura")

@@ -1,3 +1,0 @@
-import aditya 
-
-aditya.welcome()
